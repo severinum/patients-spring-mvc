@@ -14,6 +14,9 @@
     <li>
         <a href="${manualPdf}">Get PDF file</a>
     </li>
+    <li>
+        <a href="patient.html">Get Patient via jQuery</a>
+    </li>
 </ul>
 </body>
 </html>
