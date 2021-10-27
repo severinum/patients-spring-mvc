@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Patients - Home</title>
+</head>
+<body>
+<h1>Patients (Thymeleaf Templates)</h1>
+<p style="color: dimgray;" th:text="${welcomeMessage}" ></p>
+<ul>
+    <li>
+        <a href="register">New Patient</a>
+    </li>
+    <li>
+        <a th:href="${manualPdf}">Get PDF file</a>
+    </li>
+</ul>
+</body>
+</html>

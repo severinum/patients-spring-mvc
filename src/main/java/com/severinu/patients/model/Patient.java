@@ -41,4 +41,13 @@ public class Patient {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Patient{" +
+                "fname='" + fname + '\'' +
+                ", lname='" + lname + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
